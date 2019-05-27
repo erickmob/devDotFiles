@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
-source sudoers.sh
-source zsh.sh
-source ohMyZsh.sh
+source libs/sudoers.sh
+source libs/nvm.sh
+source libs/zsh.sh
+source libs/ohMyZsh.sh
+source libs/powerline.sh
+source libs/spaceship.sh

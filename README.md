@@ -6,6 +6,8 @@
 * Init the setup.sh (./setup.sh) ;
 
 ###This Script Installs:
+* nvm (https://github.com/nvm-sh/nvm);
+* node.js (https://nodejs.org/en/)
 * Zsh
 * ohMyZsh (https://ohmyz.sh/);
 * PowerFonts (https://github.com/powerline/fonts) 
@@ -14,7 +16,6 @@
 * Environment variables;
 * Alternatives (java);
 * maven;
-* nvm (node);
 * vscode;
 * intellij;
 * postgree;

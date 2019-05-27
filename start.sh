@@ -9,7 +9,9 @@ echo "/____/ \__/ |___/ /____/ \___/\__/ /_/    /_/  /_/  \__/ /___/"
 
 echo Welcome;
 echo The following items will be installed:
-echo "Zsh;"
+echo "-nvm;"
+echo "-node.js;"
+echo "-Zsh;"
 echo "-ohMyZsh;"
 echo "-powerFonts;"
 echo "-spaceship-prompt;"
@@ -17,7 +19,6 @@ echo "-JAVA 12 (JDK);"
 echo "-Environment variables;"
 echo "-Alternatives (java);"
 echo "-maven;"
-echo "-nvm (node);"
 echo "-vscode;"
 echo "-intellij;"
 echo "-postgree;"
@@ -33,9 +34,14 @@ read proceed
 if [ "$proceed" == "y" ]; then
     echo "ok"
     __add_user_sudoers
+    __add_nvm
+    __add_nvm_node
     __add_zsh
+    __add_ohmyzsh
+    __add_powerlineFonts
+    __add_spaceship
 elif [ "$proceed" ==  "n" ]; then
     echo "you shall not pass!"
 else
     echo "exiting"
-fi#!/usr/bin/env bash
+fi
