@@ -3,8 +3,7 @@
 function __add_zsh() {
     if ! type zsh >> /dev/null;then
         echo "Installing Zsh"
-        sudo dnf install zsh
-        sudo dnf install chsh
+        sudo dnf install zsh util-linux-user -y
         chsh -s $(which zsh)
     else
         echo "ZSH already installed"

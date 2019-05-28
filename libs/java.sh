@@ -4,10 +4,11 @@ function __add_java() {
 
     if ! type java >> /dev/null;then
         echo "Installing java"
-        wget --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-securebackup-cookie"   "https://download.oracle.com/otn-pub/java/jdk/12.0.1+12/69cfe15208a647278a19ef0990eea691/jdk-12.0.1_linux-x64_bin.rpm"
-        sudo rpm -Uvh jdk-12.0.1_linux-x64_bin.rpm
-        echo "export JAVA_HOME=/usr/java/jdk-12.0.1" >> ~/.zshrc
-        echo "export PATH=$PATH:/usr/java/jdk-12.0.1/bin" >> ~/.zshrc
+        curl -O https://download.java.net/java/GA/jdk12.0.1/69cfe15208a647278a19ef0990eea691/12/GPL/openjdk-12.0.1_linux-x64_bin.tar.gz
+        tar xvf openjdk-12.0.1_linux-x64_bin.tar.gz
+        sudo mv jdk-12.0.1 /opt/
+        echo "export JAVA_HOME=/opt/jdk-12.0.1" >> ~/.zshrc
+        echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> ~/.zshrc
     else
         echo "java already installed"
     fi
