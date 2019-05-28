@@ -13,8 +13,6 @@
 * PowerFonts (https://github.com/powerline/fonts) 
 * spaceship-prompt (https://github.com/denysdovhan/spaceship-prompt);
 * JAVA 12 (JDK);
-* Environment variables;
-* Alternatives (java);
 * maven;
 * vscode;
 * intellij;

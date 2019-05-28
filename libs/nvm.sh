@@ -6,5 +6,6 @@ function __add_nvm() {
 }
 function __add_nvm_node() {
     echo Installing Node.JS
-    sudo nvm install 10.0.0
+    source ~/.bashrc
+    nvm install 10.0.0
 }
