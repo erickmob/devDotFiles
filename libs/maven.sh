@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 function __add_maven() {
 
-    if ! type mvn -v >> /dev/null;then
+    if ! type mvn >> /dev/null;then
         echo "Installing Maven"
         cd /opt
         wget https://www-eu.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz

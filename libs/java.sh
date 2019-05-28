@@ -2,7 +2,7 @@
 
 function __add_java() {
 
-    if ! type java -version >> /dev/null;then
+    if ! type java >> /dev/null;then
         echo "Installing java"
         wget --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-securebackup-cookie"   "https://download.oracle.com/otn-pub/java/jdk/12.0.1+12/69cfe15208a647278a19ef0990eea691/jdk-12.0.1_linux-x64_bin.rpm"
         sudo rpm -Uvh jdk-12.0.1_linux-x64_bin.rpm
