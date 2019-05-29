@@ -9,6 +9,8 @@ function __add_java() {
         sudo mv jdk-12.0.1 /opt/
         echo "export JAVA_HOME=/opt/jdk-12.0.1" >> ~/.zshrc
         echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> ~/.zshrc
+        sudo alternatives --install /usr/bin/java java  /opt/jdk-12.0.1/bin/java 1000
+        echo '2' | sudo alternatives --config java
     else
         echo "java already installed"
     fi

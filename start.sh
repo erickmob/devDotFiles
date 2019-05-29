@@ -19,7 +19,7 @@ echo "-JAVA 12 (JDK);"
 echo "-maven;"
 echo "-vscode;"
 echo "-intellij;"
-echo "-postgree;"
+echo "-postgree 11;"
 echo "-pgadmin;"
 echo "-rambox;"
 echo "-chrome;"
@@ -42,6 +42,8 @@ if [ "$proceed" == "y" ]; then
     __add_maven
     __add_vscode
     __add_intellij
+    __add_intellij
+    __add_postgree
 elif [ "$proceed" ==  "n" ]; then
     echo "you shall not pass!"
 else

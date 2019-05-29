@@ -11,6 +11,9 @@ function __add_maven() {
         echo "export MAVEN_HOME=/opt/maven" > /etc/profile.d/maven.sh
         echo "export PATH=\$PATH:\$MAVEN_HOME/bin" >> /etc/profile.d/maven.sh
         source /etc/profile.d/maven.sh
+        echo "export MAVEN_HOME=/opt/maven" >> ~/.zshrc
+        echo "export PATH=\$PATH:\$MAVEN_HOME/bin" >> ~/.zshrc
+        source ~/.zshrc
         echo "Maven Version:"
         mvn --version
         echo "Deleting tar"
