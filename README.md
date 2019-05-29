@@ -1,12 +1,14 @@
 # devDotFiles
-##dotFile made and tested on Fedora 30
-Created by: erickmob
-###How to use:
+
+dotFile made and tested on Fedora 30
+Created by:  [erickmob](https://github.com/erickmob/)
+
+### How to use:
 * Clone or download this repo;
 * Go to the main folder ('devDotFiles');
 * Init the setup.sh (./setup.sh) ;
 
-###This Script Installs:
+### This Script Installs:
 * nvm (https://github.com/nvm-sh/nvm);
 * Node.js (https://nodejs.org/en/)
 * Zsh
