@@ -6,6 +6,7 @@ function __add_zsh() {
         sudo dnf install zsh util-linux-user -y
         chsh -s $(which zsh)
         sudo touch ~/".zshrc"
+        sudo chmod a+w ~/.zshrc
     else
         echo "ZSH already installed"
     fi
