@@ -10,7 +10,6 @@ echo "/____/ \__/ |___/ /____/ \___/\__/ /_/    /_/  /_/  \__/ /___/"
 echo Welcome;
 echo The following items will be installed:
 echo "-Zsh;"
-echo "-ohMyZsh;"
 echo "-nvm;"
 echo "-node.js;"
 echo "-powerFonts;"
@@ -34,7 +33,6 @@ if [ "$proceed" == "y" ]; then
     echo "ok"
     __add_user_sudoers
     __add_zsh
-    __add_ohmyzsh
     __add_nvm
     __add_nvm_node
     __add_powerlineFonts

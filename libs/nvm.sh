@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 function __add_nvm() {
 
@@ -13,7 +13,6 @@ function __add_nvm() {
 function __add_nvm_node() {
     if ! type node >> /dev/null;then
         echo "Installing Node.JS"
-        source ~/.zshrc
         nvm install 10.0.0
     else
         echo "Node already installed"

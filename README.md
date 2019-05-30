@@ -9,10 +9,9 @@ Created by:  [erickmob](https://github.com/erickmob/)
 * Init the setup.sh (./setup.sh) ;
 
 ### This Script Installs:
+* Zsh
 * nvm (https://github.com/nvm-sh/nvm);
 * Node.js (https://nodejs.org/en/)
-* Zsh
-* ohMyZsh (https://ohmyz.sh/);
 * PowerFonts (https://github.com/powerline/fonts) 
 * Spaceship-prompt (https://github.com/denysdovhan/spaceship-prompt);
 * JAVA 12 JDK (https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html);

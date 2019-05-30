@@ -5,6 +5,7 @@ function __add_zsh() {
         echo "Installing Zsh"
         sudo dnf install zsh util-linux-user -y
         chsh -s $(which zsh)
+        sudo touch ~/".zshrc"
     else
         echo "ZSH already installed"
     fi
