@@ -4,6 +4,7 @@ dotFile made and tested on Fedora 30
 Created by:  [erickmob](https://github.com/erickmob/)
 
 ### How to use:
+* cd ~/Documents
 * Clone or download this repo;
 * Go to the main folder ('devDotFiles');
 * Init the setup.sh (./setup.sh) ;

@@ -6,7 +6,7 @@ function __add_nvm() {
         echo "Installing Nvm"
         sudo curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
 
-        echo "export NVM_DIR='/home/bigbig/.nvm'"  >> ~/.zshrc
+        echo "export NVM_DIR='~/.nvm'"  >> ~/.zshrc
         echo "[ -s '$NVM_DIR/nvm.sh' ] && . '$NVM_DIR/nvm.sh'" >> ~/.zshrc # This loads nvm
 
         source ~/.zshrc
