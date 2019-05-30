@@ -45,6 +45,7 @@ if [ "$proceed" == "y" ]; then
     __add_intellij
     __add_intellij
     __add_postgree
+    __add_spotify
 elif [ "$proceed" ==  "n" ]; then
     echo "you shall not pass!"
 else
