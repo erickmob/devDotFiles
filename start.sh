@@ -24,6 +24,7 @@ echo "-pgadmin;"
 echo "-rambox;"
 echo "-chrome;"
 echo "-spotify;"
+echo "-postman;"
 
 echo "Shall I proceed (y/n)"?
 

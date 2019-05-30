@@ -24,3 +24,4 @@ Created by:  [erickmob](https://github.com/erickmob/)
 * Rambox (https://rambox.pro/);
 * Chrome (https://www.google.com/intl/pt-BR/chrome/);
 * Spotify (https://www.spotify.com/br/download/linux/);
+* Postman (https://www.getpostman.com/);
