@@ -8,9 +8,6 @@ function __add_postgree() {
     sudo systemctl enable postgresql-11
     sudo systemctl start postgresql-11
 
-    sudo su - postgres
-    psql -c "alter user postgres with password 'password'"
-    exit
 }
 
 
