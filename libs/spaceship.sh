@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 function __add_spaceship() {
     echo "Installing SpaceShip Prompt"
-    yes | npm install -g spaceship-prompt
+    sudo chmod a+w /usr/lib/node_modules
+    yes | npm install -g spaceship-prompt -y
 }

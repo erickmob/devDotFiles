@@ -14,3 +14,4 @@ source libs/terminator.sh
 source libs/chrome.sh
 source libs/zsh.sh
 source libs/powerline.sh
+source libs/spaceship.sh
