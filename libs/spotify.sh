@@ -8,6 +8,6 @@ function __add_spotify() {
         echo "spotify already installed"
     else
         echo "Installing spotify"
-        $(flatpak install flathub com.spotify.Client --assumeyes) 
+        sudo flatpak install flathub com.spotify.Client -y
     fi
 }

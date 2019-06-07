@@ -45,6 +45,7 @@ if [ "$proceed" == "y" ]; then
     __add_chrome
     __add_zsh
     __add_powerlineFonts
+    echo "Finished!! :D"
 
 elif [ "$proceed" ==  "n" ]; then
     echo "you shall not pass!"
