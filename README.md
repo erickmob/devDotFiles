@@ -7,6 +7,9 @@ dotFile made and tested on Fedora 30
 <br>[haooliveira84](https://github.com/haooliveira84)
 <br>[alan-albuquerque](https://github.com/alan-albuquerque)
 <br>[rodrigoventuri123](https://github.com/rodrigoventuri123)
+<br>[mbier](https://github.com/mbier)
+
+
 
 
 ### How to use:
